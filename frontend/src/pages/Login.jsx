@@ -35,7 +35,7 @@ export default function Login() {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            placeholder="e.g. jane_doe or manager@gcu.in"
+            placeholder="e.g. user_Name or manager@gcu.in"
             required
           />
         </label>
